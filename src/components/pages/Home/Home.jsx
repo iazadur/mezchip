@@ -6,9 +6,11 @@ import Services from './Services';
 const Home = () => {
     return (
         <>
-            <Header />
-            <Cart />
-            <Services />
+            <div className="container">
+                <Header />
+                <Cart />
+                <Services />
+            </div>
         </>
     );
 };
